@@ -3,7 +3,7 @@ FROM debian:stretch
 # Setup useful environment variables
 ENV CONF_HOME     /var/atlassian/confluence
 ENV CONF_INSTALL  /opt/atlassian/confluence
-ENV CONF_VERSION  5.4.4
+ENV CONF_VERSION  5.5.6
 
 ENV JAVA_CACERTS  $JAVA_HOME/jre/lib/security/cacerts
 ENV CERTIFICATE   $CONF_HOME/certificate
